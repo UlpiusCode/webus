@@ -1,0 +1,100 @@
+.features {
+    .features__title {
+        font-weight: bold;
+        line-height: normal;
+        font-size: 40px;
+        text-align: center;
+        color: $dark-gray;
+        padding-top: 81px;
+        margin: 0;
+    }
+
+    .features__description {
+        font-weight: normal;
+        line-height: 23px;
+        text-align: center;
+        color: $gray;
+        max-width: 718px;
+        margin: auto;
+        padding-top: 27px;
+    }
+
+    .blocks {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+
+        .block {
+            width: 370px;
+            height: 418px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            .block__img {
+                margin-left: 60px;
+            }
+
+            .block__title {
+                font-weight: bold;
+                line-height: normal;
+                font-size: $block-title;
+                text-align: center;
+                color: $black;
+                padding-top: 40px;
+            }
+
+            .block__description {
+                font-weight: normal;
+                line-height: 23px;
+                text-align: center;
+                color: $gray;
+                max-width: 299px;
+                margin: 0 auto;
+                padding-top: 32px;
+            }
+        }
+    }
+
+    @media (max-width: 976px) {
+        .blocks {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .block {
+                width: 320px;
+                margin-right: 0;
+            }
+        }
+    }
+
+    @media (max-width: 725px) {
+        .features__description {
+            max-width: 530px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .features__description {
+            max-width: 450px;
+        }
+    }
+
+    @media (max-width: 460px) {
+        .features__description {
+            max-width: 350px;
+        }
+    }
+
+    @media (max-width: 370px) {
+        .features__description {
+            max-width: 270px;
+        }
+    }
+}

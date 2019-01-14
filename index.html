@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Webus</title>
+    <!-- Open Graph protocol -->
+    <meta property="og:title" content="The Rock" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+    <meta property="og:description" content="Sean Connery found fame and fortune as the.." />
+    <meta property="og:site_name" content="IMDb" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "GA_TRACKING_ID");
+        </script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="wrap">
+                <div class="section-top-header">
+                    <div class="section-top__logo logo">
+                        <img src="<%= require('./src/img/logo-webus.svg') %>" alt="logo" />
+                    </div>
+                    <div class="icon-menu">
+                        <button class="openbtn" type="button" onClick="sidebar_open()">
+                            <img src="<%= require('./src/img/icon-menu.svg') %>" alt="icon menu" />
+                        </button>
+                    </div>
+                    <div class="section-top__menu menu">
+                        <div class="overlay sidebar-animate-opacity" onClick="sidebar_close()" id="myOverlay"></div>
+                        <div class="info">
+                            <div class="contact">
+                                <span class="contact__title">Тел: </span>
+                                <span class="contact__number">(+373 69) 12 34 56</span>
+                            </div>
+                            <div class="languages">
+                                <span class="languages__title"><a href="#">Ro</a></span>
+                                <span class="languages__title__selected"><a href="#">Ru</a></span>
+                            </div>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">О нас</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Продукция</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Услуги</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Акции</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Нашим партнерам</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="section-top__info">
+                    <h1 class="welcome animated fadeInDown">Welcome</h1>
+                    <p class="description animated slideInUp">
+                        to the future
+                    </p>
+                </div>
+            </div>
+        </header>
+        <section class="features">
+            <h2 class="features__title animated fadeInDown">Features</h2>
+            <p class="features__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Fusce lectus felis, consequat a elit nec, laoreet facilisis
+                lorem. Vestibulum ac augue eu ante gravida consectetur.
+            </p>
+            <div class="blocks">
+                <div class="block">
+                    <img class="block__img" src="<%= require('./src/img/ic-conversation.svg') %>" alt="conversation icon" />
+                    <div class="block__title">Conversation</div>
+                    <p class="block__description">
+                        Pellentesque vestibulum nec lacus in eleifend. Proin
+                        rutrum nulla nulla, et luctus metus dapibus vitae.
+                        Donec posuere turpis vitae ex eleifend mattis.
+                    </p>
+                </div>
+                <div class="block">
+                    <img class="block__img" src="<%= require('./src/img/ic-heart.svg') %>" alt="passion icon" />
+                    <div class="block__title">Passion</div>
+                    <p class="block__description">
+                        Pellentesque vestibulum nec lacus in eleifend. Proin
+                        rutrum nulla nulla, et luctus metus dapibus vitae.
+                        Donec posuere turpis vitae ex eleifend mattis.
+                    </p>
+                </div>
+                <div class="block" data-wow-duration="2s" data-wow-delay="5s">
+                    <img class="block__img" src="<%= require('./src/img/ic-page.svg') %>" alt="page icon" />
+                    <div class="block__title">Conversation</div>
+                    <p class="block__description">
+                        Pellentesque vestibulum nec lacus in eleifend. Proin
+                        rutrum nulla nulla, et luctus metus dapibus vitae.
+                        Donec posuere turpis vitae ex eleifend mattis.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__copyright">Copyright ©</div>
+            <img class="footer__logo" src="<%= require('./src/img/logo-webus.png') %>" alt="webus logo" />
+        </footer>
+    </div>
+    <script>
+        function sidebar_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function sidebar_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+</body>
+</html>

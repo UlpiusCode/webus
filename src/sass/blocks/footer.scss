@@ -1,0 +1,21 @@
+.footer {
+    height: 69px;
+    background: $footer-bg;
+    margin-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    .footer__copyright {
+        font-weight: normal;
+        line-height: 18px;
+        font-size: $second-fsz;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        padding: 0 25px;
+    }
+}

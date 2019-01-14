@@ -1,0 +1,32 @@
+.menu {
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nav-item {
+        margin-right: 40px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .nav-link {
+        color: $white;
+        font-weight: bold;
+        line-height: $menu-lh;
+        font-size: $second-fsz;
+        text-transform: uppercase;
+        padding-bottom: 17px;
+        border-bottom: 1px solid transparent;
+        transition-duration: 300ms;
+        transition-property: color, border-bottom-color;
+
+        &:hover {
+            color: $menu-hover;
+            border-bottom-color: $menu-hover;
+        }
+    }
+}
