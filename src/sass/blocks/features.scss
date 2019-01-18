@@ -22,14 +22,16 @@
     .blocks {
         display: flex;
         justify-content: center;
-        padding-top: 70px;
+        padding-top: 80px;
+        flex-wrap: wrap;
+        width: 1250px;
+        margin: 0 auto;
 
         .block {
-            width: 370px;
+            width: 400px;
             height: 418px;
             display: flex;
             flex-direction: column;
-            margin-right: 30px;
 
             &:last-child {
                 margin-right: 0;
@@ -91,6 +93,7 @@
             padding-top: 35px;
             font-size: 32px;
         }
+
         .features__description {
             max-width: 450px;
             padding: 16px 20px 0 20px;
