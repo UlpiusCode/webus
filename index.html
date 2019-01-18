@@ -5,25 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Webus</title>
-    <!-- Open Graph protocol -->
-    <meta property="og:title" content="The Rock" />
-    <meta property="og:type" content="video.movie" />
-    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
-    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
-    <meta property="og:description" content="Sean Connery found fame and fortune as the.." />
-    <meta property="og:site_name" content="IMDb" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-
-            gtag("config", "GA_TRACKING_ID");
-        </script>
 </head>
 <body>
     <div class="container">
@@ -31,7 +12,7 @@
             <div class="wrap">
                 <div class="section-top-header">
                     <div class="section-top__logo logo">
-                        <img src="<%= require('./src/img/logo-webus.svg') %>" alt="logo" />
+                        <img src="<%= require('./src/img/logo-webus.svg') %>" class="logo" alt="logo" />
                     </div>
                     <div class="icon-menu">
                         <button class="openbtn" type="button" onClick="sidebar_open()">

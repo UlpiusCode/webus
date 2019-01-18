@@ -3,7 +3,6 @@
     background: $footer-bg;
     margin-top: 116px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0 50px;
 
@@ -11,11 +10,19 @@
         font-weight: normal;
         line-height: 18px;
         font-size: $second-fsz;
+        align-self: center;
+    }
+
+    .footer__logo {
+        padding-top: 8px;
+        display: flex;
+        align-self: baseline;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     .footer {
-        padding: 0 25px;
+        padding: 0 20px;
+        margin-top: 36px;
     }
 }
