@@ -1,5 +1,5 @@
 <div  align="center">
-<img  width="200"  height="200"  src="https://webpack.js.org/assets/icon-square-big.svg">
+<img  width="200"  height="200"  src="http://funkyimg.com/i/2RrmN.png">
 <h1>webpack starter kit</h1>
 <p>
 A simple webpack 4 starter project for your basic web development needs.
