@@ -35,7 +35,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-git clone https://github.com/Jandyk/webpack-starter-kit.git PROJECT-NAME
+git clone https://github.com/Jandyk/web-rocket.git PROJECT-NAME
 
 # Change directory
 cd PROJECT-NAME
