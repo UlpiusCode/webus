@@ -70,15 +70,6 @@ You should use this starter if any of the following are true:
 * You want to make a static page. e.g. splash screen, onboarding screen, phaser game, threejs visualization, countdown.
 * You found no good starter kit for whatever you want to do and need a solid place to start from.
 
-### Where's the common webpack config?
-
-**There is none and that is good thing.**
-
-The pattern creates unnecessary confusion over the setup, at the end the config will always be different across environments.
-People just put booleans everywhere on the common config to switch between these differing configuration options which is just awful to see and confusing for someone who's just starting on webpack.
-
-The only truly shared config between these files are the entry js point and the main html template.
-
 ### How to load images
 
 #### In JavaScript
