@@ -27,7 +27,7 @@ A simple webpack 4 starter project for your basic web development needs.
 
 ## Prerequisites
 
-* [Node.js 8.0+](https://nodejs.org)
+* [Node.js](https://nodejs.org) 8.0+
 
 ## Getting Started
 
