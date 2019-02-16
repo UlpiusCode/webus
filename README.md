@@ -1,6 +1,6 @@
 <div  align="center">
 <img  width="200"  height="200"  src="http://funkyimg.com/i/2RrmN.png">
-<h1>Web Starter Kit</h1>
+<h1>Web Rocket</h1>
 <p>
 A simple webpack 4 starter project for your basic web development needs.
 </p>
