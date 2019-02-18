@@ -120,4 +120,4 @@ The code is available under the [MIT License](LICENSE).
 
 ---
 Thanks for reading! :pray:
-Made with :heart:
+<div>Made with :heart:</div>
