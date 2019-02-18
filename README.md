@@ -61,7 +61,7 @@ To preview the production build
 npm run preview
 ```
 
-## FAQ
+## :orange_book: FAQ
 
 ### When should I use this starter?
 
