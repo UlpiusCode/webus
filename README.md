@@ -1,9 +1,9 @@
-<div  align="center">
-<img  width="200"  height="200"  src="https://user-images.githubusercontent.com/46722214/52979148-00757f00-33dd-11e9-8019-96677c0dbca7.png">
-<h1>Webpack Boilerplate</h1>
-<p>
-:fire: A simple <strong>webpack 4 starter project</strong> for your basic web development needs.
-</p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/46722214/52979148-00757f00-33dd-11e9-8019-96677c0dbca7.png">
+  <h1>Webpack Boilerplate</h1>
+  <p>
+    :fire: A simple <strong>webpack 4 starter project</strong> for your basic web development needs.
+  </p>
 </div>
 
 ## Table of Contents
