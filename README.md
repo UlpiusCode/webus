@@ -2,7 +2,7 @@
 <img  width="150"  height="150"  src="http://funkyimg.com/i/2RrmN.png">
 <h1>Webpack Starter Kit</h1>
 <p>
-🔥 A simple <strong>webpack 4 starter project</strong> for your basic web development needs.
+:fire: A simple <strong>webpack 4 starter project</strong> for your basic web development needs.
 </p>
 </div>
 
