@@ -78,8 +78,6 @@ You should use this starter if any of the following are true:
 
 ### Where's the common webpack config?
 
-**There is none and that is good thing.**
-
 The pattern creates unnecessary confusion over the setup, at the end the config will always be different across environments.
 People just put booleans everywhere on the common config to switch between these differing configuration options which is just awful to see and confusing for someone who's just starting on webpack.
 
