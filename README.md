@@ -29,7 +29,7 @@
 
 * [Node.js](https://nodejs.org) > 7.6
  
-## :rocket: Getting Started
+## Getting Started
 
 The easiest way to get started is to clone the repository:
 
@@ -61,7 +61,7 @@ To preview the production build
 npm run preview
 ```
 
-## :orange_book: FAQ
+## FAQ
 
 ### When should I use this starter?
 
