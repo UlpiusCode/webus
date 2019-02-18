@@ -28,13 +28,13 @@
 ## Prerequisites
 
 * [Node.js](https://nodejs.org) > 7.6
- 
+
 ## Getting Started
 
 The easiest way to get started is to clone the repository:
 
 ```bash
-# Get the latest snapshot
+# Get the latest stable release
 git clone https://github.com/Jandyk/webpack-starter-kit.git PROJECT-NAME
 
 # Change directory
@@ -111,6 +111,10 @@ If you would like to include an image on your `index.html` file, place the path 
        src="<%= require('./src/assets/img/webpack.png') %>"
        alt="webpack logo"></a>
 ```
+
+## License
+
+The code is available under the [MIT License](LICENSE).
 
 ---
 Thanks for reading! 🙏
