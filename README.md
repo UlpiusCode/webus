@@ -1,6 +1,6 @@
 <div  align="center">
-<img  width="150"  height="150"  src="http://funkyimg.com/i/2RrmN.png">
-<h1>Webpack Starter Kit</h1>
+<img  width="150"  height="150"  src="https://user-images.githubusercontent.com/46722214/52979148-00757f00-33dd-11e9-8019-96677c0dbca7.png">
+<h1>Webpack Boilerplate</h1>
 <p>
 :fire: A simple <strong>webpack 4 starter project</strong> for your basic web development needs.
 </p>
@@ -35,7 +35,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest stable release
-git clone https://github.com/Jandyk/webpack-starter-kit.git PROJECT-NAME
+git clone https://github.com/Jandyk/webpack-boilerplate.git PROJECT-NAME
 
 # Change directory
 cd PROJECT-NAME
@@ -85,7 +85,7 @@ The only truly shared config between these files are the entry js point and the 
 
 You can require an image from JavaScript like
 ```js
-const myImage = require('./assets/img/icon.png');
+const myImage = require('./assets/favicon/icon.png');
 ```
 
 If the image size in bytes is smaller than `8192`you, `myImage` will be a string with the encoded image path such as 
@@ -99,7 +99,7 @@ src/assets/icon.png?hash=5b1f36bc41ab31f5b801
 
 This limit is set so images like icons are not loaded through a request but you can force the loader to give you image urls always by doing the following but should not be necessary. The limit works 90% of the time.
 ```js
-const myImage = require('!!url!/assets/img/icon.png');
+const myImage = require('!!url!/assets/favicon/icon.png');
 ```
 
 #### In `index.html`
@@ -107,9 +107,7 @@ const myImage = require('!!url!/assets/img/icon.png');
 If you would like to include an image on your `index.html` file, place the path of the image in a webpack require statement`<%= require(imagePath) %>`.
 
 ```html
-  <img class="webpack-logo"
-       src="<%= require('./src/assets/img/webpack.png') %>"
-       alt="webpack logo"></a>
+  <img src="<%= require('./src/assets/img/rocket.png') %>" alt="rocket">
 ```
 
 ## License
