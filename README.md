@@ -119,4 +119,5 @@ If you would like to include an image on your `index.html` file, place the path 
 The code is available under the [MIT License](LICENSE).
 
 ---
-Thanks for reading! 🙏
+Thanks for reading! :pray:
+Made with :heart:
