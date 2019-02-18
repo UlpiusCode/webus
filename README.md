@@ -107,7 +107,7 @@ const myImage = require('!!url!/assets/favicon/icon.png');
 If you would like to include an image on your `index.html` file, place the path of the image in a webpack require statement`<%= require(imagePath) %>`.
 
 ```html
-  <img src="<%= require('./src/assets/img/rocket.png') %>" alt="rocket">
+<img src="<%= require('./src/assets/img/rocket.png') %>" alt="rocket">
 ```
 
 ## License
