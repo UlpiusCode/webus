@@ -29,7 +29,8 @@
 
 * [Node.js](https://nodejs.org) > 7.6
 
-:rocket: ## Getting Started
+:rocket: 
+## Getting Started
 
 The easiest way to get started is to clone the repository:
 
