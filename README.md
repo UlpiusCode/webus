@@ -12,6 +12,12 @@
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [FAQ](#faq)
+  * [When should I use this starter?](#when-should-i-use-this-starter)
+  * [Where's the common webpack config?](#wheres-the-common-webpack-config)
+  * [How to load images](#how-to-load-images)
+    + [In JavaScript](#in-javascript)
+    + [In HTML](#in-html)
+- [License](#license)
 
 ## Features
 
@@ -102,7 +108,7 @@ This limit is set so images like icons are not loaded through a request but you 
 const myImage = require('!!url!/assets/favicon/icon.png');
 ```
 
-#### In `index.html`
+#### In HTML
 
 If you would like to include an image on your `index.html` file, place the path of the image in a webpack require statement`<%= require(imagePath) %>`.
 
