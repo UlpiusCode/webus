@@ -1,8 +1,8 @@
 <div  align="center">
-<img  width="200"  height="200"  src="http://funkyimg.com/i/2RrmN.png">
+<img  width="150"  height="150"  src="http://funkyimg.com/i/2RrmN.png">
 <h1>Webpack Starter Kit</h1>
 <p>
-A simple webpack 4 starter project for your basic web development needs.
+A simple <strong>webpack 4 starter project</strong> for your basic web development needs.
 </p>
 </div>
 
