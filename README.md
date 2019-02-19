@@ -143,7 +143,7 @@ import 'bootstrap/js/dist/alert';
 
 **Importing Styles**
 
-Importing Precompiled Sass
+Importing Precompiled Sass in `style.scss`:
 
 ```bash
 @import "~bootstrap/scss/bootstrap";
