@@ -17,7 +17,8 @@
   * [How to load images](#how-to-load-images)
     + [In JavaScript](#in-javascript)
     + [In HTML](#in-html)
-  * [How to include Bootstrap in your project](#installing-bootstrap)  
+  * [How to include Bootstrap in your project](#installing-bootstrap)
+  * [How to include jQuery in your project](#installing-jquery)
 - [License](#license)
 
 ## Features
@@ -64,6 +65,7 @@ npm run build
 ```
 
 To preview the production build
+
 ```bash
 npm run preview
 ```
@@ -129,13 +131,13 @@ npm install --save bootstrap
 
 Import Bootstrap’s JavaScript by adding this line to your app’s entry point `index.js`:
 
-```bash
+```js
 import 'bootstrap';
 ```
 
 Alternatively, you may **import plugins individually** as needed:
 
-```bash
+```js
 import 'bootstrap/js/dist/util';
 import 'bootstrap/js/dist/alert';
 ...
@@ -145,8 +147,34 @@ import 'bootstrap/js/dist/alert';
 
 Importing Precompiled Sass in the `style.scss`:
 
-```bash
+```scss
 @import "~bootstrap/scss/bootstrap";
+```
+
+### Installing jQuery
+
+Install jQuery as a Node.js module using npm.
+
+```bash
+npm install --save jquery
+```
+
+To automatically load jquery we can simply point both variables it exposes to the corresponding node module:
+
+```js
+new webpack.ProvidePlugin({
+  $: 'jquery',
+  jQuery: 'jquery'
+});
+```
+
+Then in any of our source code:
+
+```js
+// in a module
+$('#item'); // <= just works
+jQuery('#item'); // <= just works
+// $ is automatically set to the exports of module "jquery"
 ```
 
 ## License
