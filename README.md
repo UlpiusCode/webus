@@ -117,7 +117,7 @@ If you would like to include an image on your `index.html` file, place the path 
 
 ### Installing Bootstrap
 
-Bootstrap is dependent on [jQuery](https://jquery.com/){:target="_blank"} and [Popper](https://popper.js.org/){:target="_blank"}, these are defined as `peerDependencies`, this means that you will have to make sure to add both of them to your `package.json` using `npm install --save jquery popper.js`.
+Bootstrap is dependent on [jQuery](https://jquery.com/ target="_blank") and [Popper](https://popper.js.org/ target="_blank"), these are defined as `peerDependencies`, this means that you will have to make sure to add both of them to your `package.json` using `npm install --save jquery popper.js`.
 
 
 
