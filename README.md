@@ -119,6 +119,34 @@ If you would like to include an image on your `index.html` file, place the path 
 
 Bootstrap is dependent on [jQuery](https://jquery.com/) and [Popper](https://popper.js.org/), these are defined as `peerDependencies`, this means that you will have to make sure to add both of them to your `package.json` using `npm install --save jquery popper.js`.
 
+Then install bootstrap as a Node.js module using npm.
+
+```bash
+npm install --save bootstrap
+```
+
+#### Importing JavaScript
+
+Import Bootstrap’s JavaScript by adding this line to your app’s entry point `index.js`:
+
+```bash
+import 'bootstrap';
+```
+
+Alternatively, you may **import plugins individually** as needed:
+
+```bash
+import 'bootstrap/js/dist/util';
+import 'bootstrap/js/dist/alert';
+...
+```
+
+#### Importing Styles
+
+```bash
+# Importing Precompiled Sass
+@import "~bootstrap/scss/bootstrap";
+```
 
 ## License
 
