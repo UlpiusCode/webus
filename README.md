@@ -145,6 +145,7 @@ import 'bootstrap/js/dist/alert';
 
 ```bash
 # Importing Precompiled Sass
+
 @import "~bootstrap/scss/bootstrap";
 ```
 
