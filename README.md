@@ -159,7 +159,7 @@ Install jQuery as a Node.js module using npm.
 npm install --save jquery
 ```
 
-To automatically load jquery we can simply point both variables it exposes to the corresponding node module:
+To automatically load jquery we can simply point both variables it exposes to the corresponding node module (`webpack.dev.js` and `webpack.prod.js`):
 
 ```js
 new webpack.ProvidePlugin({
@@ -168,7 +168,7 @@ new webpack.ProvidePlugin({
 });
 ```
 
-Then in any of our source code:
+Then in any of our source code add the following code:
 
 ```js
 // in a module
