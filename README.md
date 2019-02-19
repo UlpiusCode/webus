@@ -17,7 +17,7 @@
   * [How to load images](#how-to-load-images)
     + [In JavaScript](#in-javascript)
     + [In HTML](#in-html)
-  * [How to include Bootstrap in your project](#how-to-include-bootstrap-in-your-project)  
+  * [How to include Bootstrap in your project](#installing-bootstrap)  
 - [License](#license)
 
 ## Features
