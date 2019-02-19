@@ -17,6 +17,7 @@
   * [How to load images](#how-to-load-images)
     + [In JavaScript](#in-javascript)
     + [In HTML](#in-html)
+  * [How to include Bootstrap in your project](#how-to-include-bootstrap-in-your-project)  
 - [License](#license)
 
 ## Features
@@ -113,6 +114,12 @@ If you would like to include an image on your `index.html` file, place the path 
 ```html
 <img src="<%= require('./src/assets/img/rocket.png') %>" alt="rocket">
 ```
+
+### Installing Bootstrap
+
+Bootstrap is dependent on [jQuery](https://jquery.com/) and [Popper](https://popper.js.org/), these are defined as `peerDependencies`, this means that you will have to make sure to add both of them to your `package.json` using `npm install --save jquery popper.js`.
+
+
 
 ## License
 
