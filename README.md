@@ -125,7 +125,7 @@ Then install bootstrap as a Node.js module using npm.
 npm install --save bootstrap
 ```
 
-#### Importing JavaScript
+**Importing JavaScript**
 
 Import Bootstrap’s JavaScript by adding this line to your app’s entry point `index.js`:
 
@@ -141,7 +141,7 @@ import 'bootstrap/js/dist/alert';
 ...
 ```
 
-#### Importing Styles
+**Importing Styles**
 
 Importing Precompiled Sass
 
