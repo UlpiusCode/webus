@@ -168,13 +168,13 @@ const webpack = require('webpack');
 To automatically load jquery we can simply point both variables it exposes to the corresponding node module (`webpack.dev.js` and `webpack.prod.js`):
 
 ```js
-`plugins: [`
+plugins: [
   new webpack.ProvidePlugin({
     $: 'jquery',
     jQuery: 'jquery'
   });
-  `...
-]`
+  ...
+]
 ```
 
 Then in any of our source code add the following code:
