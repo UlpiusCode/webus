@@ -177,7 +177,7 @@ plugins: [
 ]
 ```
 
-Then in any of our source code add the following code:
+Then in `index.js` or any of our source code add the following code:
 
 ```js
 // in a module
