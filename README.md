@@ -165,7 +165,7 @@ Require a webpack module in `webpack.dev.js` and `webpack.prod.js`:
 const webpack = require('webpack');
 ```
 
-To automatically load jquery we can simply point both variables it exposes to the corresponding node module (`webpack.dev.js` and `webpack.prod.js`):
+To automatically load jquery we can simply point both variables it exposes to the corresponding node module, add the following code in the `webpack.dev.js` and `webpack.prod.js`:
 
 ```js
 plugins: [
