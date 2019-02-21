@@ -8,17 +8,17 @@
 
 ## :bookmark_tabs: Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Documentation](#documentation)
+- [Introduction](#wave-introduction)
+- [Features](#bulb-features)
+- [Prerequisites](#wrench-prerequisites)
+- [Getting Started](#rocket-getting-started)
+- [Documentation](#book-documentation)
   * [How to load images](#how-to-load-images)
     + [In JavaScript](#in-javascript)
     + [In HTML](#in-html)
   * [How to include Bootstrap in your project](#installing-bootstrap)
   * [How to include jQuery in your project](#installing-jquery)
-- [License](#license)
+- [License](#key-license)
 
 ## :wave: Introduction
 
