@@ -20,7 +20,7 @@
   * [How to include jQuery in your project](#installing-jquery)
 - [License](#license)
 
-:wave: ## Introduction
+## 👋 Introduction
 
 **Webpack Boilerplate** is a Starter Kit for building user interfaces.
 
