@@ -23,15 +23,15 @@
 ## Features
 
 * Separated development and production webpack settings you can understand
-* Sass
 * ES6
+* Sass
 * Asset loading
 * CSS Vendor prefixing
 * Development server
 * Sourcemaps
+* Normalize.css and helpers
 * Favicons generation
 * Production optimizations
-* Normalize.css and helpers
 * High performance
 
 ## Prerequisites
