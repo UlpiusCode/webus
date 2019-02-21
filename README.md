@@ -8,23 +8,23 @@
 
 ## :bookmark_tabs: Table of Contents
 
-- [Introduction](#wave-introduction)
-- [Features](#bulb-features)
-- [Prerequisites](#wrench-prerequisites)
-- [Getting Started](#rocket-getting-started)
-- [Documentation](#book-documentation)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Documentation](#documentation)
   * [How to load images](#how-to-load-images)
     + [In JavaScript](#in-javascript)
     + [In HTML](#in-html)
   * [How to include Bootstrap in your project](#installing-bootstrap)
   * [How to include jQuery in your project](#installing-jquery)
-- [License](#key-license)
+- [License](#license)
 
-## :wave: Introduction
+## Introduction
 
 **Webpack Boilerplate** is a Starter Kit for building user interfaces.
 
-## :bulb: Features
+## Features
 
 * Separated development and production webpack settings you can understand
 * ES6
@@ -38,11 +38,11 @@
 * Production optimizations
 * High performance
 
-## :wrench: Prerequisites
+## Prerequisites
 
 * [Node.js](https://nodejs.org) > 7.6
 
-## :rocket: Getting Started
+## Getting Started
 
 The easiest way to get started is to clone the repository:
 
@@ -75,13 +75,14 @@ To preview the production build
 npm run preview
 ```
 
-## :book: Documentation
+## Documentation
 
 ### How to load images
 
 #### In JavaScript
 
 You can require an image from JavaScript like
+
 ```js
 const myImage = require('./assets/favicon/icon.png');
 ```
@@ -177,7 +178,7 @@ jQuery('#item'); // <= just works
 // $ is automatically set to the exports of module "jquery"
 ```
 
-## :key: License
+## License
 
 The code is available under the [MIT License](LICENSE).
 
