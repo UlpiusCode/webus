@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
@@ -19,6 +20,10 @@
   * [How to include Bootstrap in your project](#installing-bootstrap)
   * [How to include jQuery in your project](#installing-jquery)
 - [License](#license)
+
+## Introduction
+
+**Webpack Boilerplate** is a Starter Kit for building user interfaces.
 
 ## Features
 
