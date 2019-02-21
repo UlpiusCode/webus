@@ -20,11 +20,11 @@
   * [How to include jQuery in your project](#installing-jquery)
 - [License](#license)
 
-## Introduction
+## :wave: Introduction
 
 **Webpack Boilerplate** is a Starter Kit for building user interfaces.
 
-## Features
+## :bookmark_tabs: Features
 
 * Separated development and production webpack settings you can understand
 * ES6
@@ -38,11 +38,11 @@
 * Production optimizations
 * High performance
 
-## Prerequisites
+## :wrench: Prerequisites
 
 * [Node.js](https://nodejs.org) > 7.6
 
-## Getting Started
+## :rocket: Getting Started
 
 The easiest way to get started is to clone the repository:
 
@@ -75,7 +75,7 @@ To preview the production build
 npm run preview
 ```
 
-## FAQ
+## :book: FAQ
 
 ### How to load images
 
@@ -169,6 +169,7 @@ plugins: [
 ```
 
 Then in `index.js` or any of our source code add the following code:
+
 ```js
 // in a module
 $('#item'); // <= just works
@@ -176,7 +177,7 @@ jQuery('#item'); // <= just works
 // $ is automatically set to the exports of module "jquery"
 ```
 
-## License
+## :key: License
 
 The code is available under the [MIT License](LICENSE).
 
