@@ -6,13 +6,13 @@
   </p>
 </div>
 
-## Table of Contents
+## :bookmark_tabs: Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [FAQ](#faq)
+- [Documentation](#documentation)
   * [How to load images](#how-to-load-images)
     + [In JavaScript](#in-javascript)
     + [In HTML](#in-html)
@@ -24,7 +24,7 @@
 
 **Webpack Boilerplate** is a Starter Kit for building user interfaces.
 
-## :bookmark_tabs: Features
+## :bulb: Features
 
 * Separated development and production webpack settings you can understand
 * ES6
@@ -75,7 +75,7 @@ To preview the production build
 npm run preview
 ```
 
-## :book: FAQ
+## :book: Documentation
 
 ### How to load images
 
