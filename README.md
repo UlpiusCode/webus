@@ -6,7 +6,7 @@
   </p>
 </div>
 
-## :bookmark_tabs: Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
